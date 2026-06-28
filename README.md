@@ -9,7 +9,7 @@ Todo
 4. Convert the tickflow bytecode into (more) readable text
 5. Write the resulting text to an output tickflow file
 
-Current Foals
+Current Goals
 - A better dump command that properly extracts *all* tickflow from a given file. (Since tickompiler misses a lot of things)
 - Better formatting and command names (although it'll be syntactically similar to tickflow, not a complete overhaul like tickscript)
 - Compilation that can patch the exefs/main.dol/overlays directly
