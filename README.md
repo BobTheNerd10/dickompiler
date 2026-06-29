@@ -2,24 +2,18 @@
 A simple decompiler for the Tickflow format found in some Rhythm Heaven games.
 
 Todo
-1. Read the binary data from the corpus folder on a per-file 
-2. Read the tickflow_definition file to determine what exactly we're searching for (and how to parse it)
-3. Examine the binary data to find tickflow code within it
-    - Figure out how to recognize what tickflow looks like
-4. Convert the tickflow bytecode into (more) readable text
-5. Write the resulting text to an output tickflow file
-
-Current Goals
-- A better dump command that properly extracts *all* tickflow from a given file. (Since tickompiler misses a lot of things)
-- Better formatting and command names (although it'll be syntactically similar to tickflow, not a complete overhaul like tickscript)
-- Compilation that can patch the exefs/main.dol/overlays directly
+1. Read the Tickflow data from the corpus folder on a per-file basis
+2. Parse the tickflow data as readable .tickflow text 
+3. Write the resulting text to an output tickflow file
+4. Patch the .tickflow files back into the game's binaries
 
 Future Goals
 - Multiline Comments (finally!!!)
+- Replacing or expanding #index to be more like .org
 - Tempo file editing (where this is possible)
 - Perhaps baking in some features from rupert's tools 
-- Multi-region support
-- Rhmpatch and Spicerack support
+- Multi-region support for DS, Fever, and Megamix
+- Rhmpatch and Spicerack Compilation support
 - Better software support (probably Notepad++, Sublime Text, and Vscode)
 - Checking the github repo for updates
 - RHRE and HS to Tickflow :cherryhappy:
